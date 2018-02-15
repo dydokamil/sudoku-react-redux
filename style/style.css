@@ -1,0 +1,37 @@
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+td,
+th {
+  /* padding: 1rem !important; */
+  padding: 0px !important;
+}
+
+.cell-border-top {
+  border-top: 4px solid green;
+}
+
+.cell-border-bottom {
+  border-bottom: 4px solid green;
+}
+
+.cell-border-left {
+  border-left: 4px solid green;
+}
+
+.cell-border-right {
+  border-right: 4px solid green;
+}
+
+.sudoku-input {
+  width: 60px !important;
+  height: 60px !important;
+  text-align: center !important;
+}
+
+body {
+  padding: 1rem;
+}
